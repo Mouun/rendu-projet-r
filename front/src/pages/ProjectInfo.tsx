@@ -17,7 +17,6 @@ const ProjectInfo = () => (
               allons appliquer chaque classifieurs  que l'on peut retrouver dans l'onglet
               "Générer un modèle".`}
           </div>
-
           <div style={{ marginBottom: '2em' }}>
             {`Le but du jeu est de générer le modèle le plus performant afin d'avoir des prédictions
             fiables. Pour cela, nous avons deux indicateurs de performances: le taux de précision
@@ -44,7 +43,31 @@ const ProjectInfo = () => (
             `}
             <code>(AUC/Taux de bonne précision)/2</code>
           </div>
-          <p>Contenu/vidéo</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/TDC2dM3EyNA"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="mb-8"
+          />
+          <h2>Projet réalisé par</h2>
+          <ul className="mb-8 list-disc list-inside">
+            <li>Yannick OUALI</li>
+            <li>Filipe DOUTEL SILVA</li>
+            <li>Sörel NADAUD</li>
+          </ul>
+          <h2>Liens importants</h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <a href="https://github.com/Mouun/rendu-projet-r" target="_blank" rel="noreferrer">Dépôt GitHub contenant le code du site fait en React, de l&apos;API en NodeJS et des fichiers R</a>
+            </li>
+            <li>
+              <a href="https://github.com/Mouun/rendu-projet-r/tree/main/core" target="_blank" rel="noreferrer">Emplacement des fichiers R</a>
+            </li>
+          </ul>
         </div>
       </div>
     </Card>
