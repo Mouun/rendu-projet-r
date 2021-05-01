@@ -43,16 +43,18 @@ const ProjectInfo = () => (
             `}
             <code>(AUC/Taux de bonne précision)/2</code>
           </div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/TDC2dM3EyNA"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="mb-8"
-          />
+          <div className="flex justify-center">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TDC2dM3EyNA"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="mb-8"
+            />
+          </div>
           <h2>Projet réalisé par</h2>
           <ul className="mb-8 list-disc list-inside">
             <li>Yannick OUALI</li>
