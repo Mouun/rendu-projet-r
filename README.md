@@ -42,3 +42,13 @@ The server is running on http://localhost:8080
 
 If you want to manually change the running port, change PORT value inside .env file
 
+
+# Frontend
+
+Go to the front folder and run:
+
+`npm i`
+
+`npm start`
+
+The server is running on http://localhost:3000
